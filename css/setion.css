@@ -1,0 +1,41 @@
+.set {
+    position: relative;
+    background-image: url(../images/45.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+}   
+.set-content{
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
+.set-item {
+    float: left;
+    width: 40%;
+    color: #fff;
+    padding-right: 20px;
+    padding-top: 55px;
+    margin-bottom: 110px;
+}
+.set-1file{
+   padding:90px 20px 10px 150px;
+   position:relative;
+   line-height: 1.4;
+   margin-bottom: 20px;
+}
+.set-1file img{
+   position: absolute;
+   top: 82px;
+   left: 65px;
+   border-radius: 50%;
+}
+.set-desc{
+   text-transform: capitalize;
+   line-height: 1.5;
+   margin-left: 76px;
+   font-size: 14px;
+}
+.set-1file span{
+   color: #6195ff;
+}

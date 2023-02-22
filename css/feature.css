@@ -1,0 +1,120 @@
+.feature{
+
+    height: 180vh;
+    background-color: #e8e8e8;
+}
+.feature-content {
+    overflow: hidden;
+}
+
+.container1{
+
+    width: 80%;
+    margin: auto;
+
+}
+    
+    .feature-title{
+    
+        font-size: 35px;
+        text-transform: capitalize;
+        padding-top: 120px;
+        text-align: center;
+    
+    
+    }
+    .line{
+        display: block;
+        width: 62px;
+        height: 4px;
+        background-color: rgb(94, 170, 196);
+       margin: 0  auto  220px  auto;
+    
+    }
+    
+
+
+.feature-item{
+    width: 26%;
+    float: left;
+    margin-bottom:15px;
+    position: relative;
+    padding:20px;
+    margin-left: 5px;
+    
+    
+}
+.feature-item img{
+    width: 75%;
+}
+
+
+.feature-item img{
+    margin: 0 8%;
+}
+.feature-item .layer-content{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    width:80%;
+    height:100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition:opacity 1s;
+}
+.feature-item:hover .layer-content{
+    opacity:1;
+    visibility: visible;
+}
+
+ .layer-content .layer-info{
+    position: absolute;
+    left:50%;
+    top:50%;
+    width: 80%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+}
+.layer-content .category {
+    color:#6195ff;
+    margin-bottom: 5px;  
+    position: relative;
+ top: 15px;
+ text-transform: capitalize;
+
+ transition: top 1s ,opacity .5s;
+ transition-delay: 0;
+}
+.layer-content-title{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    position: relative;
+    top: 15px;
+    transition: top 1s ,opacity .5s;
+    transition-delay: .4s;
+}
+.layer-content a  {
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    background-color: #6195ff;
+    position: relative;
+    top:15px;
+    transition: top 1s ,opacity .5s;
+    transition-delay: .6s;
+}
+.portfolio-item:hover .layer-content-title,
+.portfolio-item:hover .layer-content a,
+.portfolio-item:hover .layer-content .category{
+   top:0;
+   opacity: 1;
+   visibility: visible;
+}
+.layer-content a i{
+    line-height: 40px;
+}

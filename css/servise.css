@@ -1,0 +1,84 @@
+.service {
+    background-color: lavender;
+    margin-top: 550px;
+    height: 80vh;
+
+}
+.container3{
+    margin: auto;
+    width: 80%;
+
+}
+.service-item{
+    width:50%;
+    float:left;
+
+}
+.clear {
+    clear: both;
+}
+.service-item .service-header .service-title{
+    text-align:left; 
+    margin-right:45px;
+    text-transform: capitalize;
+    padding-top: 40px;
+}
+.service-item .service-header .service-line{
+   
+    display: block;
+    width: 62px;
+    height: 4px;
+    background-color: rgb(94, 170, 196);
+    margin-right:45px;
+
+
+}
+.service-item-desc{
+    padding-right: 20px;
+    color:#999;
+    line-height: 1.4;
+    font-size: 18px;
+    margin-top: 30px;
+
+}
+.service-list {
+    list-style: none;
+}
+.service-list li i {
+    border: 1px solid #6195ff;
+    color: #6195ff;
+    padding: 3px;
+    border-radius: 50%;
+    width: 20px;
+    height:20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.service-list li{
+    margin-bottom: 13px;
+    color: rgb(147, 137, 137);
+}
+.img1 {
+    width: 400px;
+    height: 400px;
+}
+.service-bullets{
+    list-style: none;
+    text-align: center;
+}
+.service-bullets li{
+    width:10px;
+    height:10px;
+    display: inline-block;
+    background-color: #2868e8;
+    margin: 10px 5px;
+    border-radius: 50%;
+}
+.service-bullets li.active{
+    background-color: #6195ff;
+}
+.service-bullets li:hover{
+    background-color: #6195ff;
+}

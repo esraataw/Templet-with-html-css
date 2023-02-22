@@ -1,0 +1,31 @@
+
+
+
+.counter {
+    position: relative;
+    background-image: url(../images/4.jpg);
+    height:450px;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.counter-items{
+    overflow:hidden;
+    padding-top: 133px;
+}
+.counter-item {
+    width: 25%;
+    float: left;
+    text-align:center;
+}
+.counter-item .icon{
+    color:#6195ff;
+    margin-bottom: 18px;
+}
+.counter-item-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: floralwhite;
+}
+.counter-item-text {
+    color: #fff;
+}
